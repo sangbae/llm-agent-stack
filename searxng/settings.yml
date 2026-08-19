@@ -1,0 +1,20 @@
+use_default_settings: true
+
+general:
+  debug: false
+  instance_name: "Local SearXNG"
+
+search:
+  safe_search: 0
+  autocomplete: "duckduckgo"
+  formats:
+    - html
+    - json
+
+server:
+  secret_key: "CHANGE_ME_SEARXNG_SECRET"
+  limiter: false
+  image_proxy: true
+
+ui:
+  static_use_hash: true
